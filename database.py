@@ -1,6 +1,6 @@
 # Функция для инициализации базы данных и создания таблицы пользователей
 def init_db():
-    connection = sqlite3.connect("bot_database.db")
+    connection = sqlite3.connect("mybot.db")
     sql = connection.cursor()
 
     # Создаем таблицу пользователей, если она еще не создана
